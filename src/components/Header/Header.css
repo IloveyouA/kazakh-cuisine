@@ -1,0 +1,73 @@
+.header {
+    height: 40vw;
+    margin: 30px auto;
+    background: url('/bawyrsa.jpg') ;
+    background-size: 100% ;
+    position: relative;
+    border-radius: 20px;
+}
+
+.header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 20%;
+    left: 8vw;
+    animation: fadeIn 3s;
+    border-radius: 15px;
+    outline: none;
+}
+
+.header-contents h2 {
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw, 22px);
+}
+
+.header-contents p {
+    color: white;
+    font-size: 1vw;
+}
+
+.header-contents a {
+    border: none;
+    color: #2f4156;
+    font-weight: 500;
+    padding: 15px 25px;
+    background-color: #c8d9e6;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+}
+
+.header-contents a:hover {
+    cursor: pointer;
+    background-color: #2f4156;
+    color: #c8d9e6;
+    transition: 0.3s;
+}
+
+@media (max-width: 1050px) {
+    .header {
+        height: 38vw;
+    }
+    .header-contents {
+        max-width: 45%;
+    }
+}
+
+
+@media (max-width: 750px) {
+
+    .header-contents {
+        max-width: 65%;
+    }
+    .header-contents p {
+        display: none;
+    }
+    .header-contents button {
+        padding: 2vw 4vw;
+    }
+}
