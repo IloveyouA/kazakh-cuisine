@@ -21,7 +21,6 @@ import food_8 from './Нарын.jpg'
 import food_9 from './Сорпа.jpg'
 import food_10 from './Бозы.jpeg'
 import food_11 from './Желім сорпа.jpg'
-import food_12 from './Айран сорпа.jpg'
 import food_13 from './Жент.jpg'
 import food_14 from './Балқаймақ.jpg'
 import food_15 from './Құймақ.webp'
@@ -259,7 +258,7 @@ export const food_list = [
     }, {
         _id: "12",
         name: "Airan Kozhe",
-        image: food_12,
+        image: food_16,
         src: "https://youtu.be/r8W2-Bj8YLQ?si=PYmvYnawCtCdT_oL",
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
