@@ -14,7 +14,6 @@ import menu_8 from './мясные.jpg'
 import food_1 from './кумыс.jpg'
 import food_2 from './шубат.jpg'
 import food_3 from './курт.webp'
-import food_4 from './айра.avif'
 import food_5 from './Баурсаки.jpeg'
 import food_6 from './Шелпек.jpg'
 import food_7 from './Талкан.jpg'
@@ -188,7 +187,7 @@ export const food_list = [
     }, {
         _id: "4",
         name: "Airan",
-        image: food_4,
+        image: menu_7,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Milk products",
